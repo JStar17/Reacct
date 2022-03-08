@@ -39,7 +39,7 @@ export const API = () => {
     });
   };
 
-     // USER //
+     // Roles //
  const getDataRole = () => {
   axios.get("http://localhost:2000/roles").then((res) => {
     console.log("called//....");
