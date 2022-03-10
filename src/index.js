@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import{Home} from './components/Home'
 // import{StringLenght} from './components/StringLenght'
-import{EmployeeRegistration} from './components/EmployeeRegistration'
+// import{EmployeeRegistration} from './components/EmployeeRegistration'
 // import { BrowserRouter } from 'react-router-dom';
 // import{UserAPI} from './components/UserAPI'
 // import{UserDetailApi} from './components/UserDetailApi'
@@ -16,7 +16,11 @@ import{EmployeeRegistration} from './components/EmployeeRegistration'
 // import{LeaveApi} from './components/LeaveApi'
 // import{CelebrationApi} from './components/CelebrationApi'
 // import{AppDemo} from './components/AppDemo'
-import{ApiDemo3} from './components/ApiDemo3'
+// import{ApiDemo3} from './components/ApiDemo3'
+// import{FileUpload} from './components/FileUpload'
+import{FormDemo} from './components/FormDemo'
+
+
 
 
 ReactDOM.render(

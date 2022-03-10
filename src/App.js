@@ -12,7 +12,9 @@ import axios from 'axios';
 // import{LeaveApi} from './components/LeaveApi'
 // import{CelebrationApi} from './components/CelebrationApi'
 // import{AppDemo} from './components/AppDemo'
-import{ApiDemo3} from './components/ApiDemo3'
+// import{ApiDemo3} from './components/ApiDemo3'
+// import{FileUpload} from './components/FileUpload'
+import{FormDemo} from './components/FormDemo'
 
 function App() {
   return (
@@ -27,7 +29,9 @@ function App() {
    {<LeaveApi/>}
    {<CelebrationApi/>} * */}
    {/* {<AppDemo/>} */}
-   <ApiDemo3/>
+   {/* <ApiDemo3/> */}
+   {/* <FileUpload/> */}
+   <FormDemo/>
    
  </div>
     
