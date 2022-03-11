@@ -14,7 +14,9 @@ import axios from 'axios';
 // import{AppDemo} from './components/AppDemo'
 // import{ApiDemo3} from './components/ApiDemo3'
 // import{FileUpload} from './components/FileUpload'
-import{FormDemo} from './components/FormDemo'
+// import{FormDemo} from './components/FormDemo'
+import {SelectDemo} from './components/SelectDemo'
+
 
 function App() {
   return (
@@ -31,7 +33,8 @@ function App() {
    {/* {<AppDemo/>} */}
    {/* <ApiDemo3/> */}
    {/* <FileUpload/> */}
-   <FormDemo/>
+   {/* <FormDemo/> */}
+   <SelectDemo/>
    
  </div>
     
