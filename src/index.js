@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 // import{Home} from './components/Home'
 // import{StringLenght} from './components/StringLenght'
 // import{EmployeeRegistration} from './components/EmployeeRegistration'
@@ -18,15 +20,21 @@ import reportWebVitals from './reportWebVitals';
 // import{AppDemo} from './components/AppDemo'
 // import{ApiDemo3} from './components/ApiDemo3'
 // import{FileUpload} from './components/FileUpload'
-import{FormDemo} from './components/FormDemo'
+// import{FormDemo} from './components/FormDemo'
+// import {SelectDemo} from './components/SelectDemo'
+import { Nav } from './pages/Nav';
+import {Login} from './components/Login'
+import { BrowserRouter } from 'react-router-dom';
+
+
 
 
 
 
 ReactDOM.render(
-  <>
+  <BrowserRouter>
   <App/>
-  </>,
+  </BrowserRouter>,
   document.getElementById('root')
 );  
 
