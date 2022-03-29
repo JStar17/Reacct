@@ -4,12 +4,12 @@ import { useState } from 'react'
 
 export const AppDemo =() => {
 
-    const [firstName, setfirstName] = useState('')
-    const [email, setemail] = useState('')
+    const [FirstName, setFirstName] = useState('')
+    const [Email, setemail] = useState('')
     const [password, setpassword] = useState('')
 
     const firstNameHandler =(e) =>{
-        setfirstName(e.target.value) 
+        setFirstName(e.target.value) 
     }
     const emailHandler =(e) =>{
         setemail(e.target.value) 
@@ -22,20 +22,37 @@ export const AppDemo =() => {
         //alert(`Name: ${employeeName} \nEmail: ${employeeemail} \nPassword : ${employeepassword} \nAge ${employeeAge}`)
         //console.log(${firstName} ${email} ${password})
         var data = {
-            firstName :firstName,
-            email :email,
-            password : password,
+            userName:UserName,
+            email :Email,
+            mobileNo:MobileNumber,
+            password:password,        
+            firstName :FirstName,
+            lastName:LastName,
+            gender:Gender,
+            dateOfBirth:DateOfBirth,
+            role:Role,
+            salary:Salary,
+            address:Address
         }
         axios.post('http://localhost:2000/users',data).then(res=>{
             console.log(res.data)
         })
     }
 
-    const postData =() =>{
+    const post =() =>{
         var data = {
-            firstName :firstName,
-            email :email,
-            password : password,
+            userName:UserName,
+            email :Email,
+            mobileNo:MobileNumber,
+            password:password,        
+            firstName :FirstName,
+             lastName:LastName,
+            gender:Gender,
+            dateOfBirth:DateOfBirth,
+            role:Role,
+            salary:Salary,
+            address:Address
+
         }
         axios.post('http://localhost:2000/users',data).then(res=>{
             console.log(res.data)

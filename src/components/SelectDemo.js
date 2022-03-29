@@ -60,19 +60,19 @@ export const SelectDemo = () => {
           }}
         />
         <br />
-        <label>MALE</label>
+        <label>Apple</label>
         <input
           type="checkbox"
-          name="gender"
-          value="male"
+          name="fruits"
+          value="apple"
           checked={checkedState}
           onChange={() => handleOnChange()}
         />
-        <label>FEMALE</label>
+        <label>Watermelon</label>
         <input
           type="checkbox"
-          name="gender"
-          value="female"
+          name="fruits"
+          value="watermelon"
           checked={checkedState}
           onChange={() => handleOnChange()}
           

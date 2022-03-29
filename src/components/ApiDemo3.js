@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
+import { Link } from 'react-router-dom'
 
 
 export const ApiDemo3 = () => {
     const [userList, setuserList] = useState([])
-    const [productList, setproductList] = useState([])
+    
 
     const getData = () => {
         axios.get("http://localhost:2000/users").then(res => {
@@ -47,8 +48,8 @@ export const ApiDemo3 = () => {
                                     <td>{user.email}</td>
                                     
                                     <td>
-                                        <button className = "btn btn-danger">DELETE</button>
-                                        <button className = "btn btn-primary">UPDATE</button>
+                                        <Link  to={`/delete/${user._id}`} className = "btn btn-danger">DELETE</Link>
+                                        <Link  to={`/update/${user._id}`} className  = "btn btn-primary">UPDATE</Link>
                                     </td>
                                     
                                 </tr>

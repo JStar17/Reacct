@@ -11,9 +11,6 @@ export const Profile = () => {
 
         setemail(localStorage.getItem('email'))
         setpassword(localStorage.getItem('password'))
-        return () =>{
-
-        }
     }
   )
 
